@@ -1,4 +1,4 @@
-package aslam.mycontact.datastructure.linear;
+package aslam.mycontact.datastructure.linear.stack;
 
 public interface Stack {
 

@@ -1,9 +1,8 @@
 package aslam.mycontact.datastructure.linear.implementation.stack;
 
-import aslam.mycontact.datastructure.linear.Stack;
+import aslam.mycontact.datastructure.linear.stack.Stack;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class SimpleStack implements Stack {

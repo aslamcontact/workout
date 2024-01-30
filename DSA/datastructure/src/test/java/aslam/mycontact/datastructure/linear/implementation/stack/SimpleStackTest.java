@@ -1,14 +1,10 @@
 package aslam.mycontact.datastructure.linear.implementation.stack;
 
-import aslam.mycontact.datastructure.linear.Stack;
-import org.assertj.core.api.Assertions;
-import org.junit.jupiter.api.AfterEach;
+import aslam.mycontact.datastructure.linear.stack.Stack;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 class SimpleStackTest {
 
