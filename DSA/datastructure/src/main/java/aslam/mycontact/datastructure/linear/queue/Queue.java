@@ -1,11 +1,11 @@
 package aslam.mycontact.datastructure.linear.queue;
 
-public interface Queue {
+public interface Queue<T> {
 
-      <T> void enQueue(T t);
-      <T> T deQueue();
+       void enQueue(T t);
+       T deQueue();
           boolean isFull();
           boolean isEmpty();
-      <T> T peek();
+       T peek();
 
 }
