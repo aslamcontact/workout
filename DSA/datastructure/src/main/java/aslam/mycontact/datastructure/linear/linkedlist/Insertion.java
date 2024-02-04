@@ -1,4 +1,4 @@
-package aslam.mycontact.datastructure.linear.LinkedList;
+package aslam.mycontact.datastructure.linear.linkedlist;
 
 public interface Insertion<T> {
 

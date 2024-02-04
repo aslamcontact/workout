@@ -1,4 +1,4 @@
-package aslam.mycontact.datastructure.linear.LinkedList.nodeDesign;
+package aslam.mycontact.datastructure.linear.linkedlist.nodeDesign;
 
 public interface Node<T> {
     Node<T> nextNode();
