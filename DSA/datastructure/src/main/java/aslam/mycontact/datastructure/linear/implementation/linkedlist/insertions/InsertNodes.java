@@ -8,6 +8,9 @@ import aslam.mycontact.datastructure.linear.linkedlist.nodeDesign.Node;
 public class InsertNodes<T> implements Insertion<T> {
 
 
+    public InsertNodes() {
+    }
+
     @Override
     public Head<T> insertFirst(T newNodeValue, Head<T> head) {
         if(head.getNode()==null) {
@@ -34,7 +37,7 @@ public class InsertNodes<T> implements Insertion<T> {
             currentNode=currentNode.nextNode();
         }
         currentNode.setNextNode(new SingleNode<>(newNodeValue));
-        head.setNode(currentNode);
+
         return head;
     }
 
