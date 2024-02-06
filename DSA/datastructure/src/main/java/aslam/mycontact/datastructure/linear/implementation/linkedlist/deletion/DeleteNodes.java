@@ -16,13 +16,19 @@ public class DeleteNodes<T> implements Deletion<T> {
     public Head<T> removeLast(Head<T> head) {
         Node<T> currentNode=head.getNode();
         if(currentNode==null) throw new IllegalStateException("Empty Node");
-        while (currentNode.nextNode()!=null)
+        else if(currentNode.nextNode()==null)
         {
-            if(currentNode.nextNode().nextNode()==null)
-            {
-                currentNode.setNextNode(null);
-                break;
-            }
+            head.setNode(null);
+            return head;
+        }
+        while (currentNode!=null)
+        {
+             if(currentNode.nextNode().nextNode()==null)
+             {
+                 currentNode.setNextNode(null);
+
+             }
+
             currentNode=currentNode.nextNode();
         }
         return  head;
