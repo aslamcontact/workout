@@ -1,4 +1,4 @@
-package aslam.mycontact.datastructure.linear.linkedlist;
+package aslam.mycontact.datastructure.linear.linkedlist.operations;
 
 import aslam.mycontact.datastructure.linear.implementation.linkedlist.node.Head;
 import aslam.mycontact.datastructure.linear.linkedlist.nodeDesign.Node;

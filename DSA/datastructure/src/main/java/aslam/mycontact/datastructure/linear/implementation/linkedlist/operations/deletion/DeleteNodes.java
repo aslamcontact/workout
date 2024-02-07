@@ -1,7 +1,7 @@
-package aslam.mycontact.datastructure.linear.implementation.linkedlist.deletion;
+package aslam.mycontact.datastructure.linear.implementation.linkedlist.operations.deletion;
 
 import aslam.mycontact.datastructure.linear.implementation.linkedlist.node.Head;
-import aslam.mycontact.datastructure.linear.linkedlist.Deletion;
+import aslam.mycontact.datastructure.linear.linkedlist.operations.Deletion;
 import aslam.mycontact.datastructure.linear.linkedlist.nodeDesign.Node;
 
 public class DeleteNodes<T> implements Deletion<T> {

@@ -1,14 +1,14 @@
 package aslam.mycontact.datastructure.linear.implementation.linkedlist.deletion;
 
-import aslam.mycontact.datastructure.linear.implementation.linkedlist.insertions.InsertNodes;
+import aslam.mycontact.datastructure.linear.implementation.linkedlist.operations.deletion.DeleteNodes;
+import aslam.mycontact.datastructure.linear.implementation.linkedlist.operations.insertions.InsertNodes;
 import aslam.mycontact.datastructure.linear.implementation.linkedlist.node.Head;
-import aslam.mycontact.datastructure.linear.linkedlist.Deletion;
-import aslam.mycontact.datastructure.linear.linkedlist.Insertion;
+import aslam.mycontact.datastructure.linear.linkedlist.operations.Deletion;
+import aslam.mycontact.datastructure.linear.linkedlist.operations.Insertion;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.*;
 class DeleteNodesTest {
 

@@ -1,7 +1,8 @@
 package aslam.mycontact.datastructure.linear.implementation.linkedlist.insertions;
 
 import aslam.mycontact.datastructure.linear.implementation.linkedlist.node.Head;
-import aslam.mycontact.datastructure.linear.linkedlist.Insertion;
+import aslam.mycontact.datastructure.linear.implementation.linkedlist.operations.insertions.InsertNodes;
+import aslam.mycontact.datastructure.linear.linkedlist.operations.Insertion;
 
 import org.junit.jupiter.api.*;
 

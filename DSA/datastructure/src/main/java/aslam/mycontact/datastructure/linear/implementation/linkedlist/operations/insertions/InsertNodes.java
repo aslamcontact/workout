@@ -1,8 +1,8 @@
-package aslam.mycontact.datastructure.linear.implementation.linkedlist.insertions;
+package aslam.mycontact.datastructure.linear.implementation.linkedlist.operations.insertions;
 
 import aslam.mycontact.datastructure.linear.implementation.linkedlist.node.Head;
 import aslam.mycontact.datastructure.linear.implementation.linkedlist.node.SingleNode;
-import aslam.mycontact.datastructure.linear.linkedlist.Insertion;
+import aslam.mycontact.datastructure.linear.linkedlist.operations.Insertion;
 import aslam.mycontact.datastructure.linear.linkedlist.nodeDesign.Node;
 
 public class InsertNodes<T> implements Insertion<T> {
